@@ -1,0 +1,4 @@
+# Keep the application when this parent folder is used as the repository root.
+/*
+!/.gitignore
+!/cafeteria/

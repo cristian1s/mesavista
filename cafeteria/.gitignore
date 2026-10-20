@@ -1,0 +1,50 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Local observations, downloaded weights and generated results
+/data/
+/models/
+/runs/
+*.log
+
+# Reports, presentations, renders and authoring files (kept locally)
+/docs/
+/ESPECIFICACION_ESCENA.md
+/package_project.py
+/preparar_evidencias.py
+/assets/PROMPTS.json
+/assets/CASOS_PRUEBA.json
+/assets/REFERENCIAS.json
+/assets/branding/
+/assets/escenarios_adicionales/
+/static/logo-mesavista.png
+
+# Optional training material, outside the runnable demo
+/dataset/
+/train.py
+
+# Editor settings, credentials and temporary files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.codex/
+.agents/
+node_modules/
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
+*.tmp
+*.bak
+*.zip
